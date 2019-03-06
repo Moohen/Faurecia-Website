@@ -1,0 +1,173 @@
+@import 'variables';
+
+#contact {
+    width: 100%;
+    .container {
+        h2 {
+            padding: 124px 0 99px 0;
+            color: $dark-pink;
+        }
+        .info-general {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            .info-general_box {
+                .info-general_icons {
+                    display: flex;
+                    flex-direction: column;
+                    .mail {
+                        border-bottom: 1px solid $dark-pink;
+                        text-decoration: none;
+                        color: $dark-pink;
+                        font-size: 24px;
+                        font-weight: 400;
+                        width: 262px;
+                        height: 28px;
+                    }
+                    .info-general_icons_box {
+                        margin-top: 50px;
+                        a {
+                            text-decoration: none;
+                            color: $dark-pink;
+                            font-size: 40px;
+                            font-weight: 700;
+                            margin-right: 40px;
+                            letter-spacing: -3px;
+                        }
+                        a:nth-child(2) {
+                            font-size: 35px;
+                        }
+                        a:nth-child(3) {
+                            font-weight: 400;
+                        }
+                        a:last-child {
+                            margin-top: -20px;
+                        }
+                        i {
+                            font-size: 40px;
+                            color: $dark-pink;
+                        }
+                    }
+                    @media screen and (min-width: 970px) {
+                        .info-general_icons_box {
+                            margin: -20px 0 0 150px;
+                        }
+                    }
+                }
+                @media screen and (min-width: 970px) {
+                    .info-general_icons {
+                        display: flex;
+                        flex-direction: row;
+                    }
+                }
+                .info-general_places {
+                    padding-top: 65px;
+                    height: 700px;
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: wrap;
+                    p {
+                        padding-bottom: 20px;
+                        color: $grey-70;
+                        font-size: 20px;
+                        font-weight: 500;
+                        line-height: 31.5px;
+                        text-transform: uppercase;
+                    }
+                    p:nth-child(1) {
+                        padding-right: 60px;
+                    }
+                    p:nth-child(5n) {
+                        padding-bottom: 0px;
+                    }
+                }
+                @media screen and (min-width: 900px) {
+                    .info-general_places {
+                        height: 350px;
+                        width: 600px;
+                    }
+                }
+                .info-general_form {
+                    display: flex;
+                    flex-direction: column;
+                    padding-top: 60px;
+                    input[type=text] {
+                        margin: 0 34px 64px 0;
+                        border: 0px;
+                        border-bottom: 1px solid $grey-90;
+                        height: 43px;
+                        width: 290px;
+                    }
+                    @media screen and (min-width: 400px) {
+                        input[type=text] {
+                            width: 307px;
+                        }
+                    }
+                    ::placeholder {
+                        padding-left: 10px;
+                        color: $grey-80;
+                        font-size: 16px;
+                        font-weight: 500;
+                        line-height: 30px;
+                        font-variant: small-caps;
+                        letter-spacing: 1.06px;
+                    }
+                    textarea {
+                        border: 0px;
+                        border-bottom: 1px solid $grey-90;
+                        width: 290px;
+                        height: 50px;
+                        resize: none;
+                    }
+                    @media screen and (min-width: 900px) {
+                        textarea {
+                            width: 650px;
+                        }
+                    }
+                    input[type=submit] {
+                        cursor: pointer;
+                        margin: 73px 0 0 48px;
+                        width: 237px;
+                        height: 44px;
+                        border: 1px solid $grey-90;
+                        background-color: $white;
+                        color: $grey-80;
+                        font-size: 16px;
+                        font-weight: 500;
+                        line-height: 30px;
+                        font-variant: small-caps;
+                        letter-spacing: 2.02px;
+                    }
+                }
+                @media screen and (min-width: 750px) {
+                    .info-general_form {
+                        width: 500px;
+                    }
+                }
+                @media screen and (min-width: 900px) {
+                    .info-general_form {
+                        width: 700px;
+                    }
+                }
+                h3 {
+                    color: $dark-pink;
+                    font-size: 22px;
+                    font-weight: 500;
+                    line-height: 34.5px;
+                }
+            }
+            .info-general_map {
+                display: none;
+                img {
+                    width: 40.15vw;
+                    height: 45.94vw;
+                }
+            }
+            @media screen and (min-width: 1791px) {
+                .info-general_map {
+                    display: block;
+                }
+            }
+        }
+    }
+}

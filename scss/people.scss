@@ -1,0 +1,236 @@
+@import 'variables';
+
+#people {
+/*    height: 1545px;*/
+    width: 100%;
+    .container {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 95px;
+        .row {
+            width: 100%;
+            &.crew-general {
+                h2 {
+                    color: $dark-pink;
+                    padding-bottom: 71px;
+                }
+                .crew-general_desc {
+                    width: 80%;
+                    line-height: 33px;
+                    color: $grey-40;
+                    margin-bottom: 75px;
+                }
+                @media screen and (min-width: 1330px) {
+                    .crew-general_desc {
+                        margin-bottom: 176px;
+                        width: 623px;
+                    }
+                }
+                .crew-general_desc_bottom {
+                    position: relative;
+                    img:nth-child(1) {
+                        width: 78.4vw;
+                        margin: 0 0 42px 0;
+                    }
+                    @media screen and (min-width: 560px) {
+                        img:nth-child(1) {
+                            width: auto;
+                        }
+                    }
+                    @media screen and (min-width: 970px) {
+                        img:nth-child(1) {
+                            margin: 0 0 42px 180px;
+                        }
+                    }
+                    img:nth-child(2) {
+                        position: absolute;
+                        top: 115.17vw;
+                        left: -40px;
+                    }
+                    @media screen and (min-width: 560px) {
+                        img:nth-child(2) {
+                            top: 645px;
+                        }
+                    }
+                    @media screen and (min-width: 970px) {
+                        img:nth-child(2) {
+                            top: 645px;
+                            left: 144px;
+                        }
+                    }
+                    .crew-general_desc_bottom_text {
+                        margin: 0 0 35px 14px;
+                        color: $grey-50;
+                        font-size: 25px;
+                        font-weight: 300;
+                        font-style: italic;
+                        line-height: 33px;
+                    }
+                    @media screen and (min-width: 560px) {
+                        .crew-general_desc_bottom_text {
+                            width: 420px;
+                        }
+                    }
+                    @media screen and (min-width: 970px) {
+                        .crew-general_desc_bottom_text {
+                            margin: 0 0 42px 194px;
+                        }
+                    }
+                    .crew-general_desc_bottom_name {
+                        text-align: right;
+                        padding-left: 14px;
+                        color: $grey-50;
+                        font-weight: 700;
+                        font-size: 16px;
+                        line-height: 21px;
+                    }
+                    @media screen and (min-width: 970px) {
+                        .crew-general_desc_bottom_name {
+                            padding-left: 0px;
+                        }
+                    }
+                    .crew-general_desc_bottom_profession {
+                        text-align: right;
+                        padding-left: 14px;
+                        color: $grey-50;
+                        font-size: 16px;
+                        line-height: 21px;
+                    }
+                    @media screen and (min-width: 970px) {
+                        .crew-general_desc_bottom_profession {
+                            padding-left: 0px;
+                        }
+                    }
+                }
+                @media screen and (min-width: 560px) {
+                    .crew-general_desc_bottom {
+                        width: 439px;
+                    }
+                }
+            }
+            @media screen and (min-width: 970px) {
+                &.crew-general {
+                    width: 623px;
+                }
+            }
+            @media screen and (min-width: 1330px) {
+                &.crew-general {
+                    
+                }
+            }
+            &.crew-rest {
+                .crew-rest_top {
+                    position: relative;
+                    img:nth-child(1) {
+                        width: 80.52vw;
+                        margin-top: 75px;
+                    }
+                    @media screen and (min-width: 760px) {
+                        img:nth-child(1) {
+                            width: auto;
+                            margin-top: 132px;
+                        }
+                    }
+                    img:nth-child(2) {
+                        position: absolute;
+                        left: -37px;
+                    }
+                    @media screen and (min-width: 760px) {
+                        img:nth-child(2) {
+                            position: absolute;
+                            top: 479px;
+                            left: -37px;
+                        }
+                    }
+                    .crew-rest_desc_text {
+                        padding: 30px 0 0 11px;
+                        width: auto;
+                        color: $grey-50;
+                        font-size: 25px;
+                        font-weight: 400;
+                        font-style: italic;
+                        line-height: 33px;
+                    }
+                    @media screen and (min-width: 760px) {
+                        .crew-rest_desc_text {
+                            padding: 36px 0 0 13px;
+                            width: 580px;
+                        }
+                    }
+                    .crew-rest_desc_text:nth-child(3) {
+                        margin-bottom: 75px;
+                    }
+                    @media screen and (min-width: 760px) {
+                        .crew-rest_desc_text:nth-child(3) {
+                            margin-bottom: 206px;
+                        }
+                    }
+                }
+                .crew-rest_bottom {
+                    position: relative;
+                    img:first-child {
+                        width: 76.72vw;
+                    }
+                    @media screen and (min-width: 580px) {
+                        img:first-child {
+                            width: auto;
+                        }
+                    }
+                    img:nth-child(2) {
+                        position: absolute;
+                        top: 75.86vw;
+                        left: -37px;
+                    }
+                    @media screen and (min-width: 580px) {
+                        img:nth-child(2) {
+                            top: 440px;
+                        }
+                    }
+                    .crew-rest_desc_text:nth-child(3) {
+                        padding: 6.2vw 0 6.03vw 2.24vw;
+                        color: $grey-50;
+                        font-size: 25px;
+                        font-weight: 300;
+                        font-style: italic;
+                        line-height: 33px;
+                        width: auto;
+                    }
+                    @media screen and (min-width: 580px) {
+                        .crew-rest_desc_text:nth-child(3) {
+                            padding: 36px 0 35px 13px;
+                        }
+                    }
+                    @media screen and (min-width: 580px) {
+                        img:first-child {
+                            width: 430px;
+                        }
+                    }
+                    .crew-rest_desc_name {
+                        text-align: right;
+                        color: $grey-50;
+                        font-weight: 700;
+                        font-size: 16px;
+                        line-height: 21px;
+                    }
+                    .crew-rest_desc_profession {
+                        text-align: right;
+                        color: $grey-50;
+                        font-size: 16px;
+                        line-height: 21px;
+                    }
+                }
+                @media screen and (min-width: 580px) {
+                    .crew-rest_bottom {
+                        width: 445px; 
+                    }
+                }
+            }
+            @media screen and (min-width: 1330px) {
+                &.crew-rest {
+                    width: 612px;
+                }
+            }
+        }
+    }
+}
