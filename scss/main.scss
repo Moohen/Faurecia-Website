@@ -33,9 +33,17 @@ body {
 }
 
 h2 {
-    font-size: 50px;
+    font-size: 45px;
     font-weight: 600;
     text-transform: uppercase;
+}
+
+@media screen and (min-width: 350px) {
+    h2 {
+        font-size: 50px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
 }
 
 .hidden {

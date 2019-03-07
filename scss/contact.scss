@@ -12,6 +12,7 @@
             justify-content: space-between;
             flex-wrap: wrap;
             .info-general_box {
+                width: 100%;
                 .info-general_icons {
                     display: flex;
                     flex-direction: column;
@@ -31,8 +32,13 @@
                             color: $dark-pink;
                             font-size: 40px;
                             font-weight: 700;
-                            margin-right: 40px;
+                            margin-right: 30px;
                             letter-spacing: -3px;
+                        }
+                        @media screen and (min-width: 600px) {
+                            a {
+                                margin-right: 40px;
+                            }
                         }
                         a:nth-child(2) {
                             font-size: 35px;
@@ -41,7 +47,7 @@
                             font-weight: 400;
                         }
                         a:last-child {
-                            margin-top: -20px;
+                            margin-right: 0px;
                         }
                         i {
                             font-size: 40px;
@@ -77,8 +83,10 @@
                     p:nth-child(1) {
                         padding-right: 60px;
                     }
-                    p:nth-child(5n) {
-                        padding-bottom: 0px;
+                    @media screen and (min-width: 900px) {
+                        p:nth-child(5n) {
+                            padding-bottom: 0px;
+                        }
                     }
                 }
                 @media screen and (min-width: 900px) {
@@ -92,11 +100,17 @@
                     flex-direction: column;
                     padding-top: 60px;
                     input[type=text] {
-                        margin: 0 34px 64px 0;
+                        margin-bottom: 64px;
                         border: 0px;
                         border-bottom: 1px solid $grey-90;
                         height: 43px;
-                        width: 290px;
+                        width: 260px;
+                    }
+                    @media screen and (min-width: 361px) {
+                        input[type=text] {
+                            margin: 0 34px 64px 0;
+                            width: 290px;
+                        }
                     }
                     @media screen and (min-width: 400px) {
                         input[type=text] {
@@ -115,9 +129,14 @@
                     textarea {
                         border: 0px;
                         border-bottom: 1px solid $grey-90;
-                        width: 290px;
+                        width: 260px;
                         height: 50px;
                         resize: none;
+                    }
+                    @media screen and (min-width: 361px) {
+                        textarea {
+                            width: 290px;
+                        }
                     }
                     @media screen and (min-width: 900px) {
                         textarea {
@@ -126,7 +145,7 @@
                     }
                     input[type=submit] {
                         cursor: pointer;
-                        margin: 73px 0 0 48px;
+                        margin: 73px 0 0 10px;
                         width: 237px;
                         height: 44px;
                         border: 1px solid $grey-90;
@@ -137,6 +156,11 @@
                         line-height: 30px;
                         font-variant: small-caps;
                         letter-spacing: 2.02px;
+                    }
+                    @media screen and (min-width: 361px) {
+                        input[type=submit] {
+                            margin: 73px 0 0 48px;
+                        }
                     }
                 }
                 @media screen and (min-width: 750px) {
@@ -151,9 +175,14 @@
                 }
                 h3 {
                     color: $dark-pink;
-                    font-size: 22px;
+                    font-size: 20px;
                     font-weight: 500;
                     line-height: 34.5px;
+                }
+                @media screen and (min-width: 361px) {
+                    h3 {
+                        font-size: 22px;
+                    }
                 }
             }
             .info-general_map {
