@@ -3,7 +3,7 @@
 #about {
     width: 100%;
     .container {
-        padding: 129px 0 16px 0;
+        padding: 75px 0 16px 0;
         display: flex;
         flex-direction: column;
         .row {
@@ -28,14 +28,24 @@
                 width: 100%;
                 h2 {
                     color: $dark-pink;
-                    margin-bottom: 80px;
+                    margin-bottom: 50px;
+                }
+                @media only screen and (min-width: 600px) {
+                    h2 {
+                        margin-bottom: 80px;
+                    }
                 }
                 .intro-general_text_desc {
                     color: $grey-20;
                     line-height: 33px;
                 }
                 .intro-general_text_desc:nth-child(2) {
-                    margin-bottom: 80px;
+                    margin-bottom: 50px;
+                }
+                @media only screen and (min-width: 600px) {
+                    .intro-general_text_desc:nth-child(2) {
+                        margin-bottom: 80px;
+                    }
                 }
             }
             @media only screen and (min-width: 970px) {
@@ -285,10 +295,12 @@
             &.intro-details {
                 display: flex;
                 justify-content: center;
+                flex-wrap: wrap;
+                flex-direction: column-reverse;
                 .intro-details_box {
                     display: flex;
                     flex-direction: column;
-                    justify-content: center;
+                    justify-content: flex-start;
                     align-items: center;
                     width: 100%;
                     img {
@@ -333,7 +345,6 @@
                     .intro-details_box {
                         display: flex;
                         flex-direction: row;
-                        justify-content: space-between;
                         width: 100%;
                         margin-top: 75px;
                     }
@@ -342,7 +353,6 @@
                     .intro-details_box {
                         display: flex;
                         flex-direction: row;
-                        justify-content: center;
                         width: 100%;
                         margin-top: 75px;
                     }
@@ -371,7 +381,7 @@
                             color: $blue-20;
                             padding: 38px 0 10px 0px;
                         }
-                        @media only screen and (min-width: 13300px) {
+                        @media only screen and (min-width: 1330px) {
                             h2 {
                                 padding: 38px 0 10px 48px;
                             }
@@ -423,9 +433,15 @@
             }
             @media only screen and (min-width: 1330px) {
                 &.intro-details {
+                    flex-direction: row;
                     flex-wrap: nowrap;
                 }
             }
+        }
+    }
+    @media only screen and (min-width: 6000px) {
+        .container {
+            padding: 129px 0 16px 0;
         }
     }
 }

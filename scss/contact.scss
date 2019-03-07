@@ -4,8 +4,13 @@
     width: 100%;
     .container {
         h2 {
-            padding: 124px 0 99px 0;
+            padding: 75px 0 50px 0;
             color: $dark-pink;
+        }
+        @media screen and (min-width: 600px) {
+            h2 {
+                padding: 124px 0 99px 0;
+            }
         }
         .info-general {
             display: flex;
@@ -196,6 +201,11 @@
                 .info-general_map {
                     display: block;
                 }
+            }
+        }
+        @media screen and (min-width: 1791px) {
+            .info-general {
+                flex-wrap: nowrap;
             }
         }
     }
