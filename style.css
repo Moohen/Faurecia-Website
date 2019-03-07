@@ -39,11 +39,11 @@ body {
     }
 }
 h2 {
-    font-size: 45px;
+    font-size: 35px;
     font-weight: 600;
     text-transform: uppercase;
 }
-@media screen and (min-width: 350px) {
+@media screen and (min-width: 600px) {
     h2 {
         font-size: 50px;
         font-weight: 600;
@@ -312,7 +312,7 @@ h2 {
     width: 100%;
 }
 #about .container {
-    padding: 129px 0 16px 0;
+    padding: 75px 0 16px 0;
     display: flex;
     flex-direction: column;
 }
@@ -338,14 +338,24 @@ h2 {
 }
 #about .container .row .intro-general_text h2 {
     color: #c3136a;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
+}
+@media only screen and (min-width: 600px) {
+    #about .container .row .intro-general_text h2 {
+        margin-bottom: 80px;
+    }
 }
 #about .container .row .intro-general_text .intro-general_text_desc {
     color: #303030;
     line-height: 33px;
 }
 #about .container .row .intro-general_text .intro-general_text_desc:nth-child(2) {
-    margin-bottom: 80px;
+    margin-bottom: 50px;
+}
+@media only screen and (min-width: 600px) {
+    #about .container .row .intro-general_text .intro-general_text_desc:nth-child(2) {
+        margin-bottom: 80px;
+    }
 }
 @media only screen and (min-width: 970px) {
     #about .container .row .intro-general_text {
@@ -678,7 +688,7 @@ h2 {
     color: #1e2f7c;
     padding: 38px 0 10px 0px;
 }
-@media only screen and (min-width: 13300px) {
+@media only screen and (min-width: 1330px) {
     #about .container .row.intro-details .intro-details_text .intro-details_text_box h2 {
         padding: 38px 0 10px 48px;
     }
@@ -731,6 +741,11 @@ h2 {
         flex-wrap: nowrap;
     }
 }
+@media only screen and (min-width: 6000px) {
+    #about .container {
+        padding: 129px 0 16px 0;
+    }
+}
 #join-us {
     width: 100%;
 }
@@ -743,14 +758,19 @@ h2 {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-top: 95px;
+    margin-top: 50px;
 }
 #people .container .row {
     width: 100%;
 }
 #people .container .row.crew-general h2 {
     color: #c3136a;
-    padding-bottom: 71px;
+    padding-bottom: 50px;
+}
+@media screen and (min-width: 600px) {
+    #people .container .row.crew-general h2 {
+        padding-bottom: 71px;
+    }
 }
 #people .container .row.crew-general .crew-general_desc {
     width: 100%;
@@ -960,6 +980,11 @@ h2 {
         width: 612px;
     }
 }
+@media screen and (min-width: 600px) {
+    #people .container {
+        margin-top: 85px;
+    }
+}
 #newsfeed {
     width: 100%;
 }
@@ -1050,8 +1075,13 @@ h2 {
     width: 100%;
 }
 #contact .container h2 {
-    padding: 124px 0 99px 0;
+    padding: 75px 0 50px 0;
     color: #c3136a;
+}
+@media screen and (min-width: 600px) {
+    #contact .container h2 {
+        padding: 124px 0 99px 0;
+    }
 }
 #contact .container .info-general {
     display: flex;
@@ -1242,6 +1272,11 @@ h2 {
 @media screen and (min-width: 1791px) {
     #contact .container .info-general .info-general_map {
         display: block;
+    }
+}
+@media screen and (min-width: 1791px) {
+    #contact .container .info-general {
+        flex-wrap: nowrap;
     }
 }
 footer {
