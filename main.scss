@@ -1,0 +1,67 @@
+@import 'variables';
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: $grey-10;
+    font-weight: 300;
+}
+
+.container {
+    width: $container-width;
+    max-width: $container-max-widht;
+    margin: 0 auto;
+    height: 100%;
+}
+
+@media screen and (min-width: 800px) {
+    .container {
+        width: $container-width;
+        max-width: $container-max-widht-tablet;
+        margin: 0 auto;
+        height: 100%;
+    }
+}
+
+@media screen and (min-width: 970px) {
+    .container {
+        width: $container-width;
+        max-width: $container-max-widht;
+        margin: 0 auto;
+        height: 100%;
+    }
+}
+
+h2 {
+    font-size: 45px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+@media screen and (min-width: 350px) {
+    h2 {
+        font-size: 50px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+}
+
+.hidden {
+    opacity: 0;
+}
+
+.animation.animate {
+    animation: fade-in-right ease 1.5s forwards;
+    opacity: 1;
+}
+
+@keyframes fade-in-right {
+    from {
+        opacity: 0;
+        transform: translateX(-150px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
