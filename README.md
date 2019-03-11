@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Faurecia - inspiring mobility</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,500,600,700" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <section id="hero">
+            <div class="container">
+                <div class="header">
+                    <div id="myModal" class="modal">
+                        <div class="container">
+                            <span class="close">&times;</span>
+                            <div class="modal-content">
+                                <ul class="nav_menu">
+                                    <li class="close-menu">
+                                        <a href="#hero">Faurecia</a>
+                                    </li>
+                                    <li class="close-about">
+                                        <a href="#about">Kim jesteśmy?</a>
+                                    </li>
+                                    <li class="close-people">
+                                        <a href="#people">Ludzie</a>
+                                    </li>
+<!--                                    <li class="close-join-us">
+                                        <a href="#join-us">Dołącz do nas</a>
+                                    </li>-->
+                                    <li class="close-newsfeed">
+                                        <a href="#newsfeed">Newsfeed</a>
+                                    </li>
+                                    <li class="close-contact">
+                                        <a href="#contact">Kontakt</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="logo">
+                        <a href="#">
+                            <img src="img/logo.png" alt="logo">
+                        </a>
+                    </div>
+                    <div class="nav">
+                        <p class="nav_label">
+                            menu
+                        </p>
+                        <div id="myBtn" class="nav_burger">
+                            <input type="checkbox">
+
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-bottom">
+                    <h1>
+                        Faurecia
+                    </h1>
+                    <p>
+                        Take a seat
+                    </p>
+                    <p>
+                        Drive with us
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <div class="container">
+                <div class="row intro-general">
+                    <div class="intro-general_text">
+                        <h2>
+                            KIM JESTEŚMY?
+                        </h2>
+                        <p class="intro-general_text_desc">
+                            Jesteśmy jednym ze światowych liderów 
+                            w branży motoryzacyjnej. Działamy w 34 krajach tworząc ponad 100 tysięcy miejsc pracy w 300 zakładach produkcyjnych 
+                            i 30 ośrodkach badawczo-rozwojowych 
+                            na świecie.
+                        </p>
+                        <p class="intro-general_text_desc">
+                            Specjalizujemy się w projektowaniu i produkcji Specjalizujemy się w projektowaniu 
+                            i produkcji elementów wyposażenia 
+                            samochodowego w trzech kluczowych 
+                            dziedzinach:
+                        </p>
+                    </div>
+                    <div class="intro-general_icons">
+                        <div class="intro-general_icon seat">
+                            <img src="img/chairs.svg" alt="">
+                            <p>
+                                fotele
+                            </p>
+                            <p>
+                                samochodowe
+                            </p>
+                        </div>
+                        <div class="intro-general_icon wheel">
+                            <img src="img/interiors.svg" alt="">
+                            <p>
+                                wnętrza
+                            </p>
+                            <p>
+                                samochodowe
+                            </p>
+                        </div>
+                        <div class="intro-general_icon emission">
+                            <img src="img/emission.svg" alt="">
+                            <p>
+                                technologie
+                            </p>
+                            <p>
+                                kontroli emisji
+                            </p>
+                            <p>
+                                spalin
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row intro-details">
+                    <div class="intro-details_box">
+                        <div class="intro-details_box_places">
+                            <p>
+                                Grójec
+                            </p>
+                            <p>
+                                Grójec i Wałbrzych R&D
+                            </p>
+                            <p>
+                                Gorzów Wielkopolski
+                            </p>
+                            <p>
+                                Legnica
+                            </p>
+                            <p>
+                                Jelcz-Laskowice
+                            </p>
+                            <p>
+                                Wałbrzych
+                            </p>
+                            <p>
+                                Łódź IT Support
+                            </p>
+                        </div>
+                        <img src="img/small_map.png" alt="map of Poland">
+                    </div>
+                    <div class="intro-details_text">
+                        <img src="img/factory.jpg" alt="faurecia factory">
+                        <div class="intro-details_text_box">
+                            <h2>
+                                FAURECIA W POLSCE
+                            </h2>
+                            <p class="intro-details_text_desc">
+                                Działamy w Polsce już od 20 lat i pracujemy 
+                                w 9 zakładach produkcyjnych, a także w ramach dwóch zespołów R&D, Centrum Księgowo-Finansowego oraz Centrum Wsparcia IT.: W Polsce ulokowane są
+                                również funkcje wspierające globalne procesy, takie jak zakupy, zarządzanie łańcuchem dostaw, zarządzanie 
+                                programami i inne.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="join-us">
+            <div class="container">
+                
+            </div>
+        </section>
+        <section id="people">
+            <div class="container">
+                <div class="row crew-general">
+                    <h2>
+                        LUDZIE
+                    </h2>
+                    <p class="crew-general_desc">
+                        W Polsce zatrudniamy już ponad 8000 pracowników. 
+                        Każdy z nas jest inny, ale to, co nas wszystkich łączy, to zaangażowanie. Nasze zespoły wkładają wiele wysiłku, by każdy 
+                        użytkownik samochodu, do którego produkujemy elementy, 
+                        otrzymywał produkty najwyższej jakości, spełniające najwyższe wymagania w zakresie komfortu i bezpieczeństwa. Dbając 
+                        każdego dnia o operacyjną doskonałość, wiemy, że, aby nadążyć za zmieniającą się coraz szybciej rzeczywistością i być liderem 
+                        w swojej branży musimy tworzyć elastyczne i zwinne 
+                        środowisko pracy.
+                    </p>
+                    <div class="crew-general_desc_bottom">
+                        <img src="img/employee_1.jpg" alt="employee Jan Kowalski">
+                        <img src="img/quote.png" alt="quote">
+                        <p class="crew-general_desc_bottom_text">
+                            Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua.
+                        </p>
+                        <p class="crew-general_desc_bottom_name">
+                            Jan Kowalski
+                        </p>
+                        <p class="crew-general_desc_bottom_profession">
+                            elektromonter
+                        </p>
+                    </div>
+                </div>
+                <div class="row crew-rest">
+                    <div class="crew-rest_top">
+                        <img src="img/employee_2.jpg" alt="employee woman">
+                        <img src="img/quote.png" alt="quote">
+                        <p class="crew-rest_desc_text">
+                            Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua.
+                        </p>
+                    </div>
+                    <div class="crew-rest_bottom">
+                        <img src="img/employee_3.jpg" alt="employee Jan Kowalski">
+                        <img src="img/quote.png" alt="quote">
+                        <p class="crew-rest_desc_text">
+                            Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua.
+                        </p>
+                        <p class="crew-rest_desc_name">
+                            Jan Kowalski
+                        </p>
+                        <p class="crew-rest_desc_profession">
+                            elektromonter
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="newsfeed">
+            <div class="container">
+                <h2>
+                    NEWSFEED
+                </h2>
+                <div class="news-general">
+                    <div class="news-general_content">
+                        <img src="img/newsfeed_meeting.jpg" alt="Spotkanie pracowników">
+                        <h3>
+                            Tytuł 1
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna<span id="less-1"></span><span id="more-1"> aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+                        </p>
+                        <button onclick="myFirstButton()" id="myBtn-1">
+                            Czytaj dalej
+                        </button>
+                    </div>
+                    <div class="news-general_content">
+                        <img src="img/newsfeed_car_dashboard.jpg" alt="Deska rozdzielcza samochodu">
+                        <h3>
+                            Tytuł tytuł tytuł Faurecia<br>
+                            dwie linijki
+                        </h3>
+                        <p class="news-general_content_text">
+                            Duis aute irure dolor in cillum dolore eu reprehenderit in voluptate velit esse<span id="less-2"></span><span id="more-2"> fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+                        </p>
+                        <button onclick="mySecondButton()" id="myBtn-2">
+                            Czytaj dalej
+                        </button>
+                    </div>
+                    <div class="news-general_content">
+                        <img src="img/newsfeed_employees.jpg" alt="Pracownicy">
+                        <h3>
+                            Tytuł 3
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna<span id="less-3"></span><span id="more-3"> aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+                        </p>
+                        <button onclick="myThirdButton()" id="myBtn-3">
+                            Czytaj dalej
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="container">
+                <h2>
+                    KONTAKT
+                </h2>
+                <div class="info-general">
+                    <div class="info-general_box">
+                        <div class="info-general_icons">
+                            <p class="mail">
+                            kariera@faurecia.com
+                            </p>
+                            <div class="info-general_icons_box">
+                                <a href="#">
+                                    in
+                                </a>
+                                <a href="#">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div id="factories" class="info-general_places">
+                            <p>
+                                GORZÓW WIELKOPOLSKI &#9656;
+                            </p>
+                            <p>
+                                GRÓJEC &#9656;
+                            </p>
+                            <p>
+                                ŁÓDŹ &#9656;
+                            </p>
+                            <p>
+                                WAŁBRZYCH &#9656;
+                            </p>
+                            <p>
+                                JELCZ-LASKOWICE &#9656;
+                            </p>
+                            <p>
+                                LEGNICA &#9656;
+                            </p>
+                            <p>
+                                GRÓJEC &#9656;
+                            </p>
+                            <p>
+                                R&D – Grójec i Wałbrzych &#9656;
+                            </p>
+                            <p>
+                                WAŁBRZYCH &#9656;
+                            </p>
+                            <p>
+                                WAŁBRZYCH &#9656;
+                            </p>
+                        </div>
+                        <h3>
+                            ZOSTAW WIADOMOŚĆ!
+                        </h3>
+                        <div class="info-general_form">
+                            <form action="/action_page.php">
+                                <label for="fname"></label>
+                                <input type="text" id="fname" name="firstname" placeholder="IMIĘ">
+                                
+                                <label for="madres"></label>
+                                <input type="text" id="madres" name="mail-adres" placeholder="ADRES EMAIL">
+                                
+                                <label for="pnumber"></label>
+                                <input type="text" id="pnumber" name="phone-number" placeholder="NUMER TELEFONU">
+                                
+                                <label for="adres"></label>
+                                <input type="text" id="adres" name="adres" placeholder="ADRES">
+                                
+                                <label for="subject"></label>
+                                <textarea id="subject" name="subject" placeholder="TREŚĆ WIADOMOŚCI" style="height:50px"></textarea>
+                                
+                                <input type="submit" value="WYŚLIJ WIADOMOŚĆ">
+                            </form>
+                        </div>
+                    </div>
+                    <div class="info-general_map">
+                        <img src="img/map.jpg" alt="mapa Polski">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="container">
+                <div class="foto-general">
+                    <img src="img/logo.png" class="foto-general_top" alt="logo">
+                    <div class="foto-general_bottom">
+                        <img src="img/top_employer_europe_2018.png" alt="Najlepszy europejski pracodawca 2018">
+                        <img src="img/top_employer_poland_2018.png" alt="Najlepszy polski pracodawca 2018">
+                    </div>
+                </div>
+                <div class="info-general">
+                    <a href="#hero">
+                        Faurecia HR
+                    </a>
+                    <a href="#">
+                        Take a seat
+                    </a>
+                    <a href="#about">
+                        Being Faurecia
+                    </a>
+                    <a href="#join-us">
+                        Dołącz do nas
+                    </a>
+                    <a href="#contact">
+                        Kontakt
+                    </a>
+                </div>
+                <div class="info-general">
+                    <a href="#factories">
+                        Fabryki
+                    </a>
+                    <a href="#factories">
+                        Gorzów
+                    </a>
+                    <a href="#factories">
+                        Wałbrzych
+                    </a>
+                </div>
+                <div class="info-general">
+                    <a href="#newsfeed">
+                        Pozostałe
+                    </a>
+                    <a href="#footer">
+                        Faurecia
+                    </a>
+                    <a href="#footer">
+                        Polityka prywatności
+                    </a>
+                </div>
+            </div>
+        </footer>
+        <script src="js/jquery-3.3.1.min.js.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>
